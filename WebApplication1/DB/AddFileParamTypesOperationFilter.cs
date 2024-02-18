@@ -38,9 +38,12 @@ app.Run();
 
   
 */
+//Файл конфигурации swagger
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using WebApplication1.Controller;
+
+
 
 public class AddFileParamTypesOperationFilter : IOperationFilter
 {
